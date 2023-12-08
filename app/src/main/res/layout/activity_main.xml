@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="resume"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="personal_details"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/txtname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Name"
+            android:textColorHint="@color/black"
+            tools:ignore="VisualLintTextFieldSize" />
+
+        <EditText
+            android:id="@+id/txtbirth"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Birth Date"
+            android:inputType="date"
+            android:importantForAutofill="no"
+            android:textColorHint="#000000" />
+
+        <EditText
+            android:id="@+id/txtcontact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Contact"
+            android:inputType="number"
+            android:textColorHint="#000000"
+            android:importantForAutofill="no"
+            tools:ignore="Autofill,TextContrastCheck" />
+
+        <EditText
+            android:id="@+id/txtemail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Eamil- Id"
+            android:inputType="textEmailAddress"
+            android:textColorHint="#000000"
+            tools:ignore="TextContrastCheck" />
+
+        <EditText
+            android:id="@+id/txtadress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Adress"
+            android:autofillHints=""
+            android:textColorHint="#000000"
+            tools:ignore="TextFields" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Education"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/txtdegree"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Degree"
+            android:textColorHint="#000000"
+            tools:ignore="Autofill,TextContrastCheck,TextFields" />
+
+
+        <EditText
+            android:id="@+id/txtcollage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Collage"
+            android:importantForAutofill="no"
+            android:textColorHint="#000000"
+            tools:ignore="TextFields" />
+
+        <EditText
+            android:id="@+id/txtpassing"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Passing Year"
+            android:importantForAutofill="no"
+            android:inputType="number"
+            android:textColorHint="#000000" />
+
+        <EditText
+            android:id="@+id/txtpercentage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Percentage"
+            android:importantForAutofill="no"
+            android:inputType="number"
+            android:textColorHint="#000000" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Skill Details"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/txtskil1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Skill 1"
+            android:textColorHint="#000000" />
+
+        <EditText
+            android:id="@+id/txtskil2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Skill 2"
+            android:textColorHint="#000000" />
+
+        <EditText
+            android:id="@+id/txtskil3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Skill 3"
+            android:textColorHint="#000000" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Hobby Detalis"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+
+            android:id="@+id/txthobby1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Hobby 1"
+            android:importantForAutofill="no"
+            android:textColorHint="#000000"
+            tools:ignore="TextFields" />
+
+        <EditText
+            android:id="@+id/txthobby2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Hobby 2"
+            android:textColorHint="#000000"
+            tools:ignore="TextFields" />
+
+        <EditText
+            android:id="@+id/txthobby3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Hobby 3"
+            android:textColorHint="#000000" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Objective"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:gravity="center"/>
+
+        <EditText
+            android:id="@+id/txtobjective"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Objective"
+            android:textColorHint="#000000"/>
+        <Button
+            android:id="@+id/txtbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:textAllCaps="true"
+            android:layout_gravity="center"
+            android:textSize="18sp"
+            android:backgroundTint="#5690D8"/>
+    </LinearLayout>
+</ScrollView>
+
+
+
+
